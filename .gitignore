@@ -1,0 +1,5 @@
+node_modules
+.idea
+.vscode
+run_accounts.sh
+*.csv
