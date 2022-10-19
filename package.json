@@ -1,6 +1,6 @@
 {
   "name": "@revolutionpopuli/revpop-report",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Create a CSV export of content from the RevPop Blockchain",
   "main": "./dist/index.js",
   "jsnext:main": "./es/index.js",
