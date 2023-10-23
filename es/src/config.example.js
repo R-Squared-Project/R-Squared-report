@@ -1,8 +1,7 @@
 module.exports = {
-    apiNode: "wss://testnet.revolutionpopuli.com",
-    // wss://testnet2.revolutionpopuli.com is an alternative
+    apiNode: "wss://node.rsquared.digital",
     useES: true,
     // use elastic search
-    esNode: "https://testnet.revolutionpopuli.com/wrapper/elasticsearch",
+    esNode: "https://node.rsquared.digital/wrapper/elasticsearch",
     botPaymentAccounts: []
 };

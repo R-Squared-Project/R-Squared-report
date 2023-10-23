@@ -1,12 +1,12 @@
 const config = require("../config");
 
-const wsLib = require("@revolutionpopuli/revpopjs-ws");
+const wsLib = require("@rsquared/rsquared-js-ws");
 
 const {
     ChainTypes,
     ChainStore,
     FetchChain
-} = require("@revolutionpopuli/revpopjs");
+} = require("@rsquared/rsquared-js");
 
 const {operations} = ChainTypes;
 const ops = Object.keys(operations);
