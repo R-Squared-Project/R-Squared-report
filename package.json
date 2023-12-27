@@ -1,6 +1,6 @@
 {
   "name": "@r-squared/rsquared-report",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Create a CSV export of content from the R-Squared Blockchain",
   "main": "./dist/index.js",
   "jsnext:main": "./es/index.js",
