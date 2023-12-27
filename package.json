@@ -1,6 +1,6 @@
 {
   "name": "@r-squared/rsquared-report",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Create a CSV export of content from the R-Squared Blockchain",
   "main": "./dist/index.js",
   "jsnext:main": "./es/index.js",
@@ -16,7 +16,7 @@
     "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
     "@babel/eslint-parser": "^7.16.5",
-    "@r-squared/rsquared-js": "^6.0.5",
+    "@r-squared/rsquared-js": "^6.0.9",
     "assert": "^2.0.0",
     "browserify": "^17.0.0",
     "cross-env": "^7.0.3",
