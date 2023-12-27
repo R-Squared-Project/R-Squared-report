@@ -101,7 +101,7 @@ var parser = parse(
         fs.open(`output/poloniexDepositHistory.csv`, "w", (err, fd) => {
             if (err) throw err;
             let withdrawOut = [];
-            withdrawOut.push(header); // 2017-06-09 15:50:43, RVP, 52225.44149000, 93241942662236c7,COMPLETE
+            withdrawOut.push(header); // 2017-06-09 15:50:43, RQRX, 52225.44149000, 93241942662236c7,COMPLETE
 
             data.forEach((d) => {
                 if (d[2] !== "Amount")

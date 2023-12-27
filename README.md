@@ -1,6 +1,6 @@
-This is an import script for getting RevPop transactions.
+This is an import script for getting R-Squared transactions.
 
-This script uses the [`revpopjs-ws`](https://github.com/Revolution-Populi/revpopjs-ws) library to make a connection to the RevPop blockchain, fetches all transactions for a given user, and converts it to a CSV file.
+This script uses the [`rsquared-js-ws`](https://github.com/R-Squared-Project/R-Squaredjs-ws) library to make a connection to the R-Squared blockchain, fetches all transactions for a given user, and converts it to a CSV file.
 
 # Usage
 
@@ -11,14 +11,14 @@ yarn
 yarn start myUsername [debug] [no_grouping] [op_type_filter]
 ```
 
-Replace `myUsername` with the RevPop user you wish to make a report for. Since RevPop data is completely open, there are no login credentials needed to get a full transaction report on any user.
+Replace `myUsername` with the R-Squared user you wish to make a report for. Since R-Squared data is completely open, there are no login credentials needed to get a full transaction report on any user.
 
 The debug, no_grouping and op_type_filter parameters are optional.
 `debug = true|false, default = false`
 `no_grouping = true|false, default = false`
 `op_type_filter = transfer, fill_order, etc, default=none`
 
-Running the script will create a `{username}-rvp-transactions.csv` file in the `output` folder of the project.
+Running the script will create a `{username}-rqrx-transactions.csv` file in the `output` folder of the project.
 
 ## Automating multiple accounts
 

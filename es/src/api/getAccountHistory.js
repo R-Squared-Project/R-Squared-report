@@ -1,4 +1,4 @@
-const wsLib = require("@revolutionpopuli/revpopjs-ws");
+const wsLib = require("@rsquared/rsquared-js-ws");
 
 let fetchClient;
 
@@ -12,7 +12,7 @@ module.exports = function (isBrowser) {
         account_id,
         limit,
         start,
-        esNode = "https://testnet.revolutionpopuli.com/wrapper/elasticsearch"
+        esNode = "https://node.rsquared.digital/wrapper/elasticsearch"
     ) {
         console.log(
             "query",

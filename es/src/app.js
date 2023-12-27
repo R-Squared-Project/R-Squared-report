@@ -2,7 +2,7 @@ const api = require("./api/nodeApi");
 
 const accountHistoryApi = require("./api/getAccountHistory")(false);
 
-const operations = require("@revolutionpopuli/revpopjs").ChainTypes.operations;
+const operations = require("@rsquared/rsquared-js").ChainTypes.operations;
 
 const ops = Object.keys(operations);
 
@@ -114,7 +114,7 @@ async function doWork() {
     if (!NO_GROUPING) recordData = groupEntries(recordData);
     let parsedData = parseData(recordData, accountId, user);
     /* Some checking code here */
-    // let assetsToCheck = ["RVP", "GPH"];
+    // let assetsToCheck = ["RQRX", "GPH"];
     // console.log("");
     // let assets = Object.keys(assetMovements).sort();
     // assets.forEach(asset => {
@@ -199,7 +199,7 @@ async function doWork() {
         });
     }
 
-    fs.open(`output/${user}-rvp-transactions.csv`, "w", (err, fd) => {
+    fs.open(`output/${user}-rqrx-transactions.csv`, "w", (err, fd) => {
         if (err) throw err;
         let contents = "";
 
